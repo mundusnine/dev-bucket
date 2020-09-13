@@ -10,8 +10,8 @@
         }
     },
     "bin": [
-        "BeefIDE.exe",
-        "BeefBuild.exe"
+        "bin\\BeefIDE.exe",
+        "bin\\BeefBuild.exe"
     ],
     "checkver": {
         "url": "https://github.com/beefytech/Beef/releases",

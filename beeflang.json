@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/beefytech/Beef/releases/download/0.42.5/BeefSetup_0_42_5.exe",
-            "hash": ""
+            "url": "https://github.com/beefytech/Beef/releases/download/0.42.5/BeefSetup_0_42_5.exe#/dl.7z",
+            "hash": "963f879b6a41168f6f0732b6507de3c09536c45a07a461ac130772dcc438ad71"
         }
     },
     "bin": [

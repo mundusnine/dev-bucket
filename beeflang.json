@@ -10,7 +10,7 @@
         }
     },
     "bin": [
-        "bin\\BeefIDE.exe",
+        ["bin\\BeefIDE.exe","beef"],
         "bin\\BeefBuild.exe"
     ],
     "checkver": {

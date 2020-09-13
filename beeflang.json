@@ -14,8 +14,8 @@
         "bin\\BeefBuild.exe"
     ],
     "checkver": {
-        "url": "https://github.com/beefytech/Beef/releases",
-        "re": "(\\d.\\d+.\\d)"
+        "url": "https://www.beeflang.org/",
+        "re": "(Version+ +\\d.\\d+.\\d)"
     },
     "autoupdate": {
         "architecture": {

@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.beeflang.org/",
     "description": "Beef is an open source performance-oriented compiled programming language which has been built hand-in-hand with its IDE environment.",
-    "version": "0.42.5",
+    "version": "0.42.6",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/beefytech/Beef/releases/download/0.42.5/BeefSetup_0_42_5.exe#/dl.7z",
-            "hash": "963f879b6a41168f6f0732b6507de3c09536c45a07a461ac130772dcc438ad71"
+            "url": "https://github.com/beefytech/Beef/releases/download/0.42.6/BeefSetup_0_42_6.exe#/dl.7z",
+            "hash": "262c7e8d59c1287f7cdcfa451057518e82352851a254b4bed22b71bd895e6fe0"
         }
     },
     "bin": [
@@ -15,17 +15,13 @@
     ],
     "checkver": {
         "url": "https://www.beeflang.org/",
-        "re": "(Version+ +\\d.\\d+.\\d)"
+        "re": "(?<=Version )(\\d.\\d+.\\d)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/beefytech/Beef/releases/download/$version/BeefSetup_$majorVersion_$minorVersion_$patchVersion.exe#/dl.7z",
-                "hash": {
-                    "url": "https://github.com/beefytech/Beef/releases/download/$version/BeefSetup_$majorVersion_$minorVersion_$patchVersion.sha512"
-                }
+                "url": "https://github.com/beefytech/Beef/releases/download/$version/BeefSetup_$majorVersion_$minorVersion_$patchVersion.exe#/dl.7z"
             }
-            
         }
     }
 }

@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "http://nightly.beeflang.org/index.html",
-        "re": "(?s)(?<=BeefSetup_)(\\d+)_(\\d+)_(\\d+)__(\\d+)_(\\d+)_(\\d+)",
+        "re": "(?<=BeefSetup_)(\\d+)_(\\d+)_(\\d+)__(\\d+)_(\\d+)_(\\d+)",
         "replace": "${1}.${2}.${3}.${4}${5}${6}"
     },
     "autoupdate": {
